@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema id="org.gnome.shell.extensions.google-search-provider"
+		path="/org/gnome/shell/extensions/google-search-provider/">
+		<key type="s" name="api-key">
+			<default>""</default>
+			<summary>API Key</summary>
+			<description>A Google Custom Search JSON API key.</description>
+		</key>
+		<key type="s" name="cx">
+			<default>""</default>
+			<summary>Search Context</summary>
+			<description>A Google Custom Search JSON context.</description>
+		</key>
+	</schema>
+</schemalist>

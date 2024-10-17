@@ -1,0 +1,22 @@
+.result-box {
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    cursor: pointer !important;
+}
+
+.result-box:hover {
+    background-color: rgba(46, 46, 46, 128);
+}
+
+.result-label {
+    font-weight: bold;
+}
+
+.result-link {
+    color: #62a0ea;
+}
+
+.padded {
+    padding: 5px;
+}

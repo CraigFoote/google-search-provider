@@ -1,0 +1,8 @@
+{
+    "name": "Google Search Provider",
+    "description": "Add Google search to Ubuntu overview search.",
+    "uuid": "google-search-provider@footeware.ca",
+    "settings-schema": "org.gnome.shell.extensions.google-search-provider",
+    "shell-version": ["47"],
+    "version": 1
+}
