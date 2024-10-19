@@ -155,7 +155,7 @@ export class GoogleSearchProvider {
             }
 
             const nameLabel = St.Label.new(meta.name);
-            nameLabel.add_style_class_name("result-label padded");
+            nameLabel.add_style_class_name("padded");
             box.add_child(nameLabel);
 
             const link = item.link;
