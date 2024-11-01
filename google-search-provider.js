@@ -265,7 +265,7 @@ export class GoogleSearchProvider {
 
                                 let status;
                                 try {
-                                    // this causes a 429 bad Soup enum error 🤬
+                                    // 429 causes a bad Soup enum error 🤬
                                     status = message.get_status();
                                 } catch (error) {
                                     if (error.message.includes(429)) {
